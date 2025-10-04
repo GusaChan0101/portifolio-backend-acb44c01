@@ -5,23 +5,27 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Linguagens",
-      skills: ["Python", "Java", "Node.js", "TypeScript", "Go", "C#"]
+      skills: ["Node.js", "TypeScript", "Python", "Java", "Go"]
     },
     {
-      title: "Frameworks",
-      skills: ["Spring Boot", "Django", "Express", "FastAPI", "NestJS"]
+      title: "Frameworks API",
+      skills: ["Express", "NestJS", "FastAPI", "Spring Boot", "Apollo Server"]
+    },
+    {
+      title: "Protocolos & Padrões",
+      skills: ["REST", "GraphQL", "gRPC", "WebSocket", "OAuth2", "JWT"]
     },
     {
       title: "Banco de Dados",
-      skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "DynamoDB"]
+      skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL", "Elasticsearch"]
     },
     {
-      title: "DevOps & Cloud",
-      skills: ["Docker", "Kubernetes", "AWS", "GCP", "CI/CD", "Terraform"]
+      title: "Documentação & Testes",
+      skills: ["Swagger/OpenAPI", "Postman", "Jest", "Pytest", "JUnit"]
     },
     {
-      title: "Ferramentas",
-      skills: ["Git", "RabbitMQ", "Kafka", "Elasticsearch", "Grafana"]
+      title: "DevOps & Infra",
+      skills: ["Docker", "Kubernetes", "AWS", "Nginx", "CI/CD", "Grafana"]
     }
   ];
 

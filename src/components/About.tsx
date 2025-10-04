@@ -4,19 +4,19 @@ import { Code2, Database, Server } from "lucide-react";
 const About = () => {
   const highlights = [
     {
+      icon: <Server className="w-8 h-8 text-primary" />,
+      title: "APIs REST",
+      description: "Design e implementação de APIs RESTful escaláveis"
+    },
+    {
       icon: <Code2 className="w-8 h-8 text-primary" />,
-      title: "Clean Code",
-      description: "Código limpo, testável e bem documentado"
+      title: "GraphQL",
+      description: "Schemas eficientes e queries otimizadas"
     },
     {
       icon: <Database className="w-8 h-8 text-primary" />,
-      title: "Banco de Dados",
-      description: "Design e otimização de schemas complexos"
-    },
-    {
-      icon: <Server className="w-8 h-8 text-primary" />,
-      title: "APIs REST & GraphQL",
-      description: "Arquiteturas escaláveis e performáticas"
+      title: "Microserviços",
+      description: "Arquitetura distribuída e comunicação entre serviços"
     }
   ];
 
@@ -33,14 +33,14 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-slide-up">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Desenvolvedor backend apaixonado por criar soluções eficientes e escaláveis. 
-              Com experiência em múltiplas linguagens e frameworks, foco em entregar código 
-              de qualidade que resolve problemas reais.
+              Especialista em desenvolvimento de APIs com foco em performance, segurança e escalabilidade. 
+              Experiência sólida em REST, GraphQL e arquitetura de microserviços, criando soluções 
+              que atendem milhares de requisições por segundo.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Especializado em arquitetura de sistemas, otimização de performance e boas 
-              práticas de desenvolvimento. Sempre buscando aprender e aplicar as tecnologias 
-              mais modernas do mercado.
+              Domínio de autenticação JWT, OAuth, versionamento de APIs, documentação com Swagger/OpenAPI 
+              e implementação de rate limiting, caching e monitoramento. Sempre aplicando as melhores 
+              práticas do mercado para entregar APIs robustas e confiáveis.
             </p>
           </div>
 

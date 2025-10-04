@@ -19,10 +19,10 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
         <div className="max-w-4xl mx-auto space-y-6">
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Desenvolvedor Backend
+            Especialista em APIs
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Construindo soluções escaláveis e robustas com tecnologias modernas
+            Desenvolvendo APIs REST e GraphQL escaláveis, seguras e de alta performance
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center pt-6">

@@ -6,25 +6,25 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "API de E-commerce",
-      description: "API REST completa com autenticação JWT, processamento de pagamentos e gerenciamento de estoque em tempo real.",
-      techs: ["Node.js", "PostgreSQL", "Redis", "Docker"],
+      title: "API E-commerce REST",
+      description: "API REST completa com autenticação JWT, endpoints de produtos, pedidos e pagamentos. Rate limiting, cache Redis e documentação OpenAPI.",
+      techs: ["Node.js", "Express", "PostgreSQL", "Redis", "Swagger"],
       github: "https://github.com",
-      demo: "https://demo.com"
+      demo: "https://api-demo.com/docs"
     },
     {
-      title: "Sistema de Mensageria",
-      description: "Microserviço para processamento assíncrono de mensagens com alta disponibilidade e resiliência.",
+      title: "API GraphQL Multi-tenant",
+      description: "API GraphQL escalável com schema stitching, subscriptions em tempo real e autenticação OAuth2. Suporta múltiplos clientes.",
+      techs: ["Node.js", "Apollo Server", "PostgreSQL", "Docker"],
+      github: "https://github.com",
+      demo: "https://graphql-demo.com/graphql"
+    },
+    {
+      title: "Microserviços de Pagamento",
+      description: "Arquitetura de microserviços com API Gateway, processamento assíncrono e comunicação via message broker. Alta disponibilidade.",
       techs: ["Java", "Spring Boot", "RabbitMQ", "Kubernetes"],
       github: "https://github.com",
-      demo: "https://demo.com"
-    },
-    {
-      title: "Dashboard Analytics",
-      description: "Backend para análise de dados em tempo real com agregações complexas e cache inteligente.",
-      techs: ["Python", "FastAPI", "MongoDB", "Elasticsearch"],
-      github: "https://github.com",
-      demo: "https://demo.com"
+      demo: "https://api-demo.com"
     }
   ];
 
